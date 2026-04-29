@@ -13,6 +13,18 @@ To build a statistically sound forecasting model for Food Price Index data by:
 The goal is to produce a reliable time-series forecasting framework based on classical statistical methods.
 
 # Methodology
+```mermaid
+graph LR
+    A[Exploratory Data Analysis] --> B[Stationarity Testing]
+    B --> C[Variance Stabilization]
+    C --> D[Model Identification]
+    D --> E[Model Estimation]
+    E --> F[Model Diagnostics]
+    
+    F --> G[Forecasting]
+
+    
+```
 1. Exploratory Data Analysis (EDA)
    - Time-series visualization
    - Trend and pattern identification
@@ -44,6 +56,8 @@ The forecasting framework follows the classical Box-Jenkins methodology:
 3. Diagnostic Checking
 4. Forecasting
 This structured approach ensures statistical validity and interpretability of the final model.
+
+![Model](assets/model.png)
 
 # Skills Demonstrated
 - Time-Series Analysis
